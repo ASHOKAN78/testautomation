@@ -24,7 +24,7 @@ public class MyTest1 extends Base{
 		reportLogger.log(LogStatus.PASS, "Create Data Domain", "Passed - Data Domain created successfully");
 		reportLogger.log(LogStatus.FAIL, "Create User Domain", "Passed - User Domain created successfully" + reportLogger.addScreenCapture(getScreenshot()));
 		logger.info(testData.toString());
-		logger.info("Test Execution completed for " + tcid);
+		logger.info("Test Execution completed for the test case: " + tcid);
 		
 	}
 
